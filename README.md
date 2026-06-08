@@ -1,8 +1,8 @@
-# Hi, I'm Ayrinhaha
+# Hi, I'm **Ayrinhaha**
 
 ## About Me
 
-I am a first-year Web Development student who is interested in learning how to build websites and web applications.
+I am a first-year IT student who is interested in game development.
 
 ## Basic Information
 
@@ -16,7 +16,8 @@ I am a first-year Web Development student who is interested in learning how to b
 ## My Interests
 
 * Web Development
-* Money
+* Sports
+* Games
 
 ## Skills
 
@@ -29,13 +30,15 @@ I am a first-year Web Development student who is interested in learning how to b
 ### Soft Skills
 
 * Multitasking
+* Adaptive
+* Meticulous
 
 ## My Goals
 
-1. Learn HTML, CSS, and JavaScript.
-2. Create responsive websites.
-3. Build my own portfolio website.
-4. Become a professional web developer.
+1. To graduate on time.
+2. Build my own portfolio website.
+3. Become rich.
+4. Retire early.
 
 ## Favorite Websites
 
