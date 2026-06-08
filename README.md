@@ -1,4 +1,4 @@
-# Hi, I'm **Ayrinhaha**
+# Hi, I'm *Ayrinhaha**
 
 ## About Me
 
@@ -36,7 +36,7 @@ I am a first-year IT student who is interested in game development.
 ## My Goals
 
 1. To graduate on time.
-2. Build my own portfolio website.
+2. Build my own game.
 3. Become rich.
 4. Retire early.
 
