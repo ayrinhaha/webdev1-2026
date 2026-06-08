@@ -20,17 +20,15 @@ I am a first-year Web Development student who is interested in learning how to b
 
 ## Skills
 
-* Critical thinking (overthinking)
-* To eat a lot and not get fat
-* Sleep peacefully while having tons of activities
+* Encoding
 
 ### Technical Skills
 
-* Java (Rice)
+* Java 
 
 ### Soft Skills
 
-* Miscommunication
+* Multitasking
 
 ## My Goals
 
@@ -38,7 +36,6 @@ I am a first-year Web Development student who is interested in learning how to b
 2. Create responsive websites.
 3. Build my own portfolio website.
 4. Become a professional web developer.
-5. The goal.
 
 ## Favorite Websites
 
