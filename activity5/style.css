@@ -1,9 +1,14 @@
+ body {
+   font-family: "Helvetica", Arial, sans-serif;
+ }
+
  /* part 1 */
  .quote-card {
    background-color: #fff8f0;
    border-left: 6px solid #f97316;
    padding: 24px 28px;
    max-width: 350px;
+   /*modified this to match the output in the picc better*/
    border-radius: 0 8px 8px 0;
    font-family: Georgia, serif;
  }
@@ -53,15 +58,17 @@
    font-weight: bold;
    color: #a5b4fc;
    margin-bottom: 4px;
+
  }
 
 
- .label {
+ .stats .label {
    display: block;
    font-size: 0.7rem;
    color: #818cf8;
    text-transform: uppercase;
    letter-spacing: 1.5px;
+
 
  }
 
@@ -80,6 +87,7 @@
    font-weight: bold;
    color: #1e3a5f;
    letter-spacing: 0.5px;
+
  }
 
  input {
@@ -128,6 +136,7 @@
  }
 
  /* part 5 */
+
  .price-card {
    background: #ffffff;
    border: 1px solid #e2e8f0;
@@ -138,7 +147,7 @@
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
  }
 
- .plan-label {
+ .price-card .plan-label {
    font-size: 0.7rem;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -156,6 +165,8 @@
  .new-price {
    font-size: 2rem;
    font-weight: bold;
+   color: #16a34a;
+   /*the color isnot included in the instruction but the color on the pic is green eh */
  }
 
  .save-badge {
@@ -167,4 +178,5 @@
    font-weight: bold;
    padding: 3px 10px;
    border-radius: 20px;
+
  }
