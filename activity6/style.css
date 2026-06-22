@@ -145,7 +145,6 @@ body {
 
 
 /* lvl 8 */
-
 .nav-menu {
     display: block;
     width: 200px;
@@ -176,6 +175,7 @@ body {
 }
 
 
+
 .nav-link.active-item a {
     color: #FFFFFF;
     background-color: #334155;
@@ -186,5 +186,5 @@ body {
     color: #38bdf8;
     background-color: #0f172a;
     font-weight: 600;
-
 }
+

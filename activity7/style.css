@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
+    border: 2px dashed #dbe7ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+    min-height: 180px;
+}
+
+.box,
+.card,
+.logo,
+.links,
+.btn {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(200, 215, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8f95a3;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.short {
+    height: 50px;
+}
+
+.medium {
+    height: 80px;
+}
+
+.tall {
+    height: 110px;
+}
+
+
+
+/* 1 */
+.one {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* 2 */
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 3 */
+.three {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+/* 4 */
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 360px;
+
+}
+
+/* 5 */
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    width: 360px;
+    height: 220px;
+}
+
+.card {
+    width: 155px;
+}
+
+/* 6 */
+.six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 130px;
+
+}
+
+.links {
+    height: 40px;
+    width: 250px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    height: 55px;
+    width: 130px;
+}
+
+/* 7 */
+.seven {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+/* 8 */
+.eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.small {
+    width: 80px;
+}
+
+.wide {
+    width: 150px;
+}
+
+.medium-width {
+    width: 110px;
+}
+
+/* 9 */
+.nine {
+    display: flex;
+    gap: 30px;
+}
+
+/* 10 */
+.ten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 360px;
+    height: 200px;
+    gap: 2px;
+}
