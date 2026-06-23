@@ -42,65 +42,21 @@ body {
     height: 110px;
 }
 
-
-
-/* 1 */
-.one {
-    display: flex;
-    justify-content: space-between;
-
+.small {
+    width: 80px;
 }
 
-/* 2 */
-.two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+.wide {
+    width: 150px;
 }
 
-/* 3 */
-.three {
-    display: flex;
-    align-items: flex-end;
-    gap: 8px;
-}
-
-/* 4 */
-.four {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 360px;
-
-}
-
-/* 5 */
-.five {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-
-    width: 360px;
-    height: 220px;
-}
-
-.card {
-    width: 155px;
-}
-
-/* 6 */
-.six {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.medium-width {
+    width: 110px;
 }
 
 .logo {
     height: 60px;
     width: 130px;
-
 }
 
 .links {
@@ -115,15 +71,69 @@ body {
     width: 130px;
 }
 
+
+
+/* 1 */
+.s1-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 2 */
+.s1-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 3 */
+.s1-three {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+/* 4 */
+.s1-four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 360px;
+}
+
+/* 5 */
+.s1-five {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 360px;
+    height: 220px;
+}
+
+
+.s1-four .card,
+.s1-five .card {
+    width: 155px;
+}
+
+/* 6 */
+.s1-six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* 7 */
-.seven {
+.s1-seven {
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
 }
 
 /* 8 */
-.eight {
+.s1-eight {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,26 +141,14 @@ body {
     gap: 20px;
 }
 
-.small {
-    width: 80px;
-}
-
-.wide {
-    width: 150px;
-}
-
-.medium-width {
-    width: 110px;
-}
-
 /* 9 */
-.nine {
+.s1-nine {
     display: flex;
     gap: 30px;
 }
 
 /* 10 */
-.ten {
+.s1-ten {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -158,4 +156,115 @@ body {
     width: 360px;
     height: 200px;
     gap: 2px;
+}
+
+
+/* 11 */
+.s2-one {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* 12 */
+.s2-two {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.s2-two div {
+    width: 150px;
+}
+
+/* 13 */
+.s2-three {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+/* 14 */
+.s2-four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 360px;
+
+}
+
+.s2-four .card {
+    width: 110px;
+}
+
+/* 15 */
+.s2-five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 360px;
+    height: 220px;
+}
+
+.s2-five .card {
+    width: 155px;
+}
+
+/* 16 */
+.s2-six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.s2-six .logo {
+    height: 60px;
+}
+
+.s2-six .link {
+    height: 30px;
+}
+
+.s2-six .btn {
+    height: 62px;
+}
+
+/* 17 */
+.s2-seven {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+/* 18 */
+.s2-eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* 19 */
+.s2-nine {
+    display: flex;
+    gap: 30px;
+}
+
+/* 20 */
+.s2-ten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 360px;
+    height: 200px;
+    gap: 2px;
+}
+
+.s2-ten .card {
+    width: 90px;
 }
