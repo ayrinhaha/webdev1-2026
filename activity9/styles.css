@@ -1,0 +1,399 @@
+/* =====================================================
+Checkpoint 1:
+display: flex only affects an element's direct children.
+The navbar and the navigation list are two different
+parent containers, so each one needs its own flex layout.
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f2ea;
+    color: #1f1f1f;
+    line-height: 1.6;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 28px 60px;
+
+    border-bottom: 1px solid #ddd4ca;
+}
+
+.navbar__logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar__links {
+    list-style: none;
+
+    display: flex;
+    gap: 40px;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar__links a:hover {
+    color: #b75d34;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+
+    max-width: 1140px;
+
+    margin: auto;
+
+    padding: 100px 40px;
+
+    display: flex;
+
+    gap: 65px;
+
+    align-items: flex-start;
+}
+
+.hero__text {
+    flex: 1.2;
+}
+
+.hero__panel {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.hero__eyebrow {
+    color: #b75d34;
+
+    letter-spacing: 2px;
+
+    font-size: .9rem;
+
+    font-weight: 700;
+
+    margin-bottom: 28px;
+}
+
+.hero__title {
+    font-size: 4rem;
+
+    line-height: 1.15;
+
+    margin-bottom: 30px;
+
+    font-weight: 700;
+}
+
+.hero__desc {
+
+    max-width: 520px;
+
+    color: #555;
+
+    font-size: 1.35rem;
+
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #1e1e1e;
+
+    color: white;
+
+    padding: 18px 36px;
+
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+/* ================= INFO CARDS ================= */
+
+.info-card {
+
+    background: white;
+
+    border: 1px solid #ddd4ca;
+
+    padding: 28px;
+}
+
+.card-label {
+
+    color: #9b938c;
+
+    font-size: .85rem;
+
+    letter-spacing: 2px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.card-value {
+
+    font-size: 1.6rem;
+
+    font-weight: bold;
+
+    line-height: 1.4;
+}
+
+.info-card--accent {
+
+    background: #b75d34;
+
+    color: white;
+
+    border: none;
+}
+
+.info-card--accent .card-label {
+
+    color: #f7ddd1;
+}
+
+/* =====================================================
+Checkpoint 2:
+The cards naturally stacked because div elements are
+block elements. Flexbox was added so the container could
+use flex-direction: column and the gap property to create
+consistent spacing without adding margins to each card.
+===================================================== */
+
+/* ================= SKILLS ================= */
+
+.skills {
+
+    max-width: 1140px;
+
+    margin: auto;
+
+    padding: 100px 40px;
+}
+
+.section-label {
+
+    color: #b75d34;
+
+    font-size: .9rem;
+
+    letter-spacing: 2px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.section-title {
+
+    font-size: 3rem;
+
+    margin-bottom: 55px;
+}
+
+.skills__grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 1px;
+
+    background: #ddd4ca;
+
+    border: 1px solid #ddd4ca;
+}
+
+/* ================= SKILL CARDS ================= */
+
+/* Prediction:
+The property that turns a container into a grid is
+display: grid, and the property that defines the
+columns is grid-template-columns.
+*/
+
+.skill-card {
+    background: #ffffff;
+    padding: 36px 30px;
+    min-height: 220px;
+}
+
+.skill-card--wide {
+    grid-column: span 2;
+}
+
+.skill-number {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.skill-card h3 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.skill-card p:last-child {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* ================= CONTACT ================= */
+
+.contact {
+    background: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.contact-label {
+    color: #f1c8b1;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    font-size: 3.3rem;
+    margin-bottom: 30px;
+}
+
+.contact-desc {
+    color: #cfcfcf;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #f8f2ea;
+    color: #b75d34;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 38px;
+    border: 1px solid #ddd4ca;
+}
+
+.contact-btn:hover {
+    background: #ffffff;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 35px 60px;
+
+    background: #f8f2ea;
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer__links a:hover {
+    color: #b75d34;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 70px 24px;
+    }
+
+    .skills {
+        padding: 70px 24px;
+    }
+
+    .skills__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card--wide {
+        grid-column: span 1;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 30px 24px;
+    }
+}
+
+/* ===========================================================
+Checkpoint 3:
+
+Prediction:
+The property that allows a grid item to span multiple
+columns is grid-column.
+
+Grid makes this layout easier because any card can become
+wide simply by adding one class. With Flexbox, changing
+which cards are wide or keeping the layout consistent at
+different screen sizes would require more custom width
+rules and would be harder to maintain.
+
+-----------------------------------------------------------
+
+Checkpoint 4:
+
+The contact section doesn't need display: flex because its
+content is meant to stack vertically in the normal document
+flow. Only the text needs to be centered using text-align,
+while the navbar and hero require Flexbox because their
+children must be arranged side by side.
+
+=========================================================== */
