@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +5,32 @@
 }
 
 
+
+
+
+
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
     background: #f8f2ea;
     color: #1f1f1f;
     line-height: 1.6;
 }
+
+.navbar__logo,
+.hero__title,
+.btn,
+.card-value,
+.section-title,
+.skill-number,
+.skill-card h3,
+.contact h2,
+.contact-btn {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
 
 
 .navbar {
@@ -20,12 +39,15 @@ body {
 }
 
 .navbar__logo {
+    font-family: "Space Grotesk", sans-serif;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
 }
+
 
 .navbar__toggle {
     float: right;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1.8rem;
     background: none;
     border: none;
@@ -72,10 +94,13 @@ nav {
 }
 
 .hero__title {
+    font-family: "Space Grotesk", sans-serif;
     font-size: 3.3rem;
     line-height: 1.15;
+    font-weight: 700;
     margin-bottom: 24px;
 }
+
 
 .hero__desc {
     color: #555;
@@ -398,29 +423,26 @@ nav {
     }
 }
 
+
 /* 
 Checkpoint 1
-
-The hero section surprised me the most. At first I thought I
+The hero section surprised me the most. At first, I thought I
 would need to use Flexbox right away, but the default stacked
-layout already worked well on a small screen. I only needed to
-adjust the spacing and font sizes to make it look better.
+layout already looked good on a small screen. I only needed to
+adjust the spacing and font sizes to make it easier to read.
 
 
 Checkpoint 2
-
-I chose my breakpoints based on when the layout started to feel
-too cramped instead of using common device sizes. Different
-devices have different screen widths, so using the content
-itself helps keep the layout looking good on more screens.
-
+I chose my breakpoints by testing my layout instead of using
+common device sizes. This helped me find the points where the
+content actually started to feel cramped. It also makes the
+website work better across different screen sizes.
 
 
 Checkpoint 3
+Media queries only respond to changes in screen size, so they
+cannot detect when someone clicks a button. JavaScript is
+needed because it listens for the click event and adds or
+removes a class to show or hide the navigation menu.
 
-CSS media queries respond to changes like the screen size, but
-they cannot remember when a user clicks a button. The hamburger
-menu needs JavaScript because it changes the page based on a
-user action by adding or removing a class.
-
-*/
+ */
