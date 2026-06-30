@@ -1,9 +1,4 @@
-/* =====================================================
-Checkpoint 1:
-display: flex only affects an element's direct children.
-The navbar and the navigation list are two different
-parent containers, so each one needs its own flex layout.
-===================================================== */
+
 
 * {
     margin: 0;
@@ -18,7 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* ================= NAVBAR ================= */
 
 .navbar {
     display: flex;
@@ -52,7 +46,6 @@ body {
     color: #b75d34;
 }
 
-/* ================= HERO ================= */
 
 .hero {
 
@@ -134,7 +127,7 @@ body {
     background: #333;
 }
 
-/* ================= INFO CARDS ================= */
+
 
 .info-card {
 
@@ -181,15 +174,6 @@ body {
     color: #f7ddd1;
 }
 
-/* =====================================================
-Checkpoint 2:
-The cards naturally stacked because div elements are
-block elements. Flexbox was added so the container could
-use flex-direction: column and the gap property to create
-consistent spacing without adding margins to each card.
-===================================================== */
-
-/* ================= SKILLS ================= */
 
 .skills {
 
@@ -233,13 +217,6 @@ consistent spacing without adding margins to each card.
     border: 1px solid #ddd4ca;
 }
 
-/* ================= SKILL CARDS ================= */
-
-/* Prediction:
-The property that turns a container into a grid is
-display: grid, and the property that defines the
-columns is grid-template-columns.
-*/
 
 .skill-card {
     background: #ffffff;
@@ -269,7 +246,7 @@ columns is grid-template-columns.
     font-size: 1.1rem;
 }
 
-/* ================= CONTACT ================= */
+
 
 .contact {
     background: #1e1e1e;
@@ -311,7 +288,9 @@ columns is grid-template-columns.
     background: #ffffff;
 }
 
-/* ================= FOOTER ================= */
+
+
+
 
 .footer {
     display: flex;
@@ -338,7 +317,6 @@ columns is grid-template-columns.
     color: #b75d34;
 }
 
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
 
@@ -373,27 +351,36 @@ columns is grid-template-columns.
     }
 }
 
-/* ===========================================================
+/* 
+Checkpoint 1:
+I used display: flex in two different places because Flexbox
+only controls the direct children of the element it's applied
+to. The header arranges the logo and the navigation side by
+side, while the navigation list needs its own flex layout to
+place the links in a row.
+
+
+Checkpoint 2:
+The cards naturally stacked because div elements are
+block elements. Flexbox was added so the container could
+use flex-direction: column and the gap property to create
+consistent spacing without adding margins to each card. 
+
+
 Checkpoint 3:
+Before writing the CSS, I guessed that the property to make a
+grid item span more than one column would be grid-column.
 
-Prediction:
-The property that allows a grid item to span multiple
-columns is grid-column.
-
-Grid makes this layout easier because any card can become
-wide simply by adding one class. With Flexbox, changing
-which cards are wide or keeping the layout consistent at
-different screen sizes would require more custom width
-rules and would be harder to maintain.
-
------------------------------------------------------------
+Using Grid makes this layout much easier to manage because I
+can make any card wider just by adding one class. If I used
+only Flexbox, I would have to manually adjust widths, and it
+would be more difficult to change which cards are wide or keep
+the layout looking the same on different screen sizes.
 
 Checkpoint 4:
-
-The contact section doesn't need display: flex because its
-content is meant to stack vertically in the normal document
-flow. Only the text needs to be centered using text-align,
-while the navbar and hero require Flexbox because their
-children must be arranged side by side.
-
-=========================================================== */
+This section didn't need display: flex because the elements
+are already arranged vertically in the order I want. The only
+thing I needed was to center the text using text-align: center.
+The navbar and hero sections used Flexbox because their
+children needed to be placed next to each other in a row. 
+ */

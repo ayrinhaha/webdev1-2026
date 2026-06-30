@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f3f4f6;
+    padding: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.activity1-card {
+    width: 220px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.activity1-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #5b73ff;
+    color: #fff;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.activity1-card p {
+    color: gray;
+
+}
+
+
+.activity2-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.activity2-card {
+    width: 180px;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity2-card h3 {
+    color: #8a8a8a;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.activity2-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.activity2-amount {
+    font-size: 34px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1;
+}
+
+.activity2-month {
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-bottom: 4px;
+}
+
+
+
+.activity3-navbar {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity3-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.activity3-nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.activity3-button {
+    text-decoration: none;
+    color: #fff;
+    background: #4e63ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+.activity4-card {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.activity4-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #ff6b5d;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.activity4-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.activity4 p {
+    color: #3A3A3A;
+}
+
+
+.activity5-tags {
+    width: 340px;
+    margin: auto;
+    font-weight: bold;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.activity5-tag {
+    background: #eef1ff;
+    color: #4e63ff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 12px;
+}
