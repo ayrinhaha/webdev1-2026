@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BuildWeb — Build Sites That Work on Every Screen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+
+        <!-- ============================= NAV ============================= -->
+        <nav>
+            <div class="container nav-inner">
+
+                <a href="#" class="logo">
+                    Build<span>Web</span>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#features">Why Us</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="#" class="btn btn-secondary">Sign In</a>
+                    <a href="#" class="btn btn-primary">Start Free →</a>
+                </div>
+
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+            <div class="mobile-menu">
+
+                <div class="container mobile-menu-inner">
+
+                    <a href="#features">Why Us</a>
+                    <a href="#curriculum">Curriculum</a>
+                    <a href="#pricing">Pricing</a>
+
+                    <a href="#" class="btn btn-primary">
+                        Start Free →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- ============================= HERO ============================= -->
+
+        <section class="hero">
+
+            <div class="container">
+
+                <span class="tag">
+                    FREE BEGINNER COURSE
+                </span>
+
+                <h1>
+                    Build sites that work
+                    <br>
+                    on <em>every screen.</em>
+                </h1>
+
+                <p>
+                    Master HTML5, CSS3, and responsive design from scratch —
+                    with real projects, live code, and zero fluff.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#" class="btn btn-primary">
+                        Start Learning Free →
+                    </a>
+
+                    <a href="#curriculum" class="btn btn-secondary">
+                        View Curriculum
+                    </a>
+
+                </div>
+
+                <div class="bp-viz">
+
+                    <div class="bp-viz-header">
+
+                        <div class="bp-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span class="bp-viz-label">
+                            Responsive Breakpoints
+                        </span>
+
+                    </div>
+
+                    <div class="bp-track-wrap">
+
+                        <div class="bp-track">
+                            <div class="bp-fill"></div>
+                        </div>
+
+                        <div class="bp-markers">
+                            <div class="bp-marker">0px Mobile</div>
+                            <div class="bp-marker">640px Tablet</div>
+                            <div class="bp-marker">900px Laptop</div>
+                            <div class="bp-marker">1280px Desktop</div>
+                        </div>
+
+                    </div>
+
+                    <div class="bp-code">
+
+                        <span class="c-comment">
+                            /* CSS you'll write in Lesson 4 */
+                        </span>
+
+                        <br>
+
+                        <span class="c-at">
+                            @media
+                        </span>
+
+                        (max-width: 640px) {
+
+                        <br>
+
+                        &nbsp;&nbsp;.grid {
+
+                        <span class="c-prop">
+                            grid-template-columns
+                        </span>
+
+                        : 1fr;
+
+                        }
+
+                        <br>
+
+                        }
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================= SOCIAL PROOF ============================= -->
+
+        <section class="proof">
+
+            <div class="container">
+
+                <p class="proof-label">
+                    Trusted by beginners worldwide
+                </p>
+
+                <div class="proof-row">
+
+                    <div class="avatars">
+
+                        <div class="avatar">MR</div>
+                        <div class="avatar">JS</div>
+                        <div class="avatar">KL</div>
+                        <div class="avatar">AP</div>
+                        <div class="avatar">TN</div>
+
+                    </div>
+
+                    <div class="proof-text">
+                        <strong>2,400+</strong> students already enrolled
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================= FEATURES ============================= -->
+
+        <section class="features" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="tag">
+                        WHY BUILDWEB
+                    </span>
+
+                    <h2>
+                        Everything you need to
+                        start building.
+                    </h2>
+
+                    <p>
+                        No frameworks, no jargon —
+                        just the fundamentals that actually stick.
+                    </p>
+
+                </div>
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            🎯
+                        </div>
+
+                        <h3>
+                            Project-First Learning
+                        </h3>
+
+                        <p>
+                            Every concept is taught by building something real.
+                            No isolated exercises—just projects you can actually
+                            show people.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            📱
+                        </div>
+
+                        <h3>
+                            Mobile-First Approach
+                        </h3>
+
+                        <p>
+                            Learn the right way from the start.
+                            We write CSS mobile-first,
+                            the same way professionals do it.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Instant Feedback
+                        </h3>
+
+                        <p>
+                            See changes live in your browser as you type.
+                            No waiting, no builds—
+                            just you and the code.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            🧩
+                        </div>
+
+                        <h3>
+                            Visual Code Breakdowns
+                        </h3>
+
+                        <p>
+                            CSS can feel like magic.
+                            We show you exactly how each property affects
+                            the layout with annotated diagrams.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            Reusable Patterns
+                        </h3>
+
+                        <p>
+                            Build a personal library of layout patterns—
+                            navbars, grids, cards—
+                            that you'll reuse across every future project.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            🌐
+                        </div>
+
+                        <h3>
+                            Deploy on Day One
+                        </h3>
+
+                        <p>
+                            Put your first site on the real internet in Lesson 2.
+                            Real URLs, real motivation,
+                            real learning.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================= CURRICULUM ============================= -->
+
+        <section class="curriculum" id="curriculum">
+
+            <div class="container">
+
+                <div class="curriculum-layout">
+
+                    <!-- LEFT -->
+
+                    <div class="curriculum-info">
+
+                        <span class="tag">
+                            CURRICULUM
+                        </span>
+
+                        <h2>
+                            From blank page to responsive site
+                        </h2>
+
+                        <p>
+                            A structured 8-lesson path that takes you from
+                            zero to publishing a multi-page website that
+                            looks great on every device.
+                        </p>
+
+                        <div class="stat-row">
+
+                            <div class="stat">
+                                <h3>8</h3>
+                                <p>Lessons</p>
+                            </div>
+
+                            <div class="stat">
+                                <h3>12h</h3>
+                                <p>Total Content</p>
+                            </div>
+
+                            <div class="stat">
+                                <h3>4</h3>
+                                <p>Real Projects</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT -->
+
+                    <div class="accordion">
+
+                        <div class="acc-item open">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">01</span>
+
+                                    <span class="acc-title">
+                                        How the Web Works
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Understand what a browser does,
+                                    how HTML files become web pages,
+                                    and why this mental model matters
+                                    for everything that follows.
+
+                                    <ul>
+
+                                        <li>Browsers &amp; rendering</li>
+
+                                        <li>Your first HTML file</li>
+
+                                        <li>Publishing to the web</li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="acc-item">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">02</span>
+
+                                    <span class="acc-title">
+                                        HTML5 Structure &amp; Semantics
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Learn how to structure pages
+                                    with meaningful HTML elements.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="acc-item">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">03</span>
+
+                                    <span class="acc-title">
+                                        CSS Fundamentals &amp; Box Model
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Master selectors,
+                                    spacing,
+                                    borders,
+                                    sizing,
+                                    and typography.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="acc-item">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">04</span>
+
+                                    <span class="acc-title">
+                                        Flexbox Layout
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Align, distribute,
+                                    and organize layouts
+                                    using Flexbox.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="acc-item">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">05</span>
+
+                                    <span class="acc-title">
+                                        CSS Grid &amp; Complex Layouts
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Build responsive grids,
+                                    dashboards,
+                                    and modern page layouts.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="acc-item">
+
+                            <button class="acc-header">
+
+                                <div class="acc-header-left">
+
+                                    <span class="acc-num">06</span>
+
+                                    <span class="acc-title">
+                                        Responsive Design &amp; Media Queries
+                                    </span>
+
+                                </div>
+
+                                <span class="acc-chevron">▾</span>
+
+                            </button>
+
+                            <div class="acc-body">
+
+                                <div class="acc-body-inner">
+
+                                    Learn breakpoints,
+                                    fluid layouts,
+                                    responsive typography,
+                                    and adaptive components.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================= CTA ============================= -->
+
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-strip">
+
+                    <h2>
+                        Ready to write your first line?
+                    </h2>
+
+                    <p>
+                        Free forever for the core curriculum.
+                        No credit card, no setup—
+                        open your browser and go.
+                    </p>
+
+                    <div class="cta-actions">
+
+                        <a href="#" class="btn btn-primary">
+                            Start Free Now →
+                        </a>
+
+                        <a href="#curriculum" class="btn btn-secondary">
+                            See Full Curriculum
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================= FOOTER ============================= -->
+
+        <footer>
+
+            <div class="container footer-inner">
+
+                <p>
+                    © 2026 BuildWeb.
+                    Made for curious beginners.
+                </p>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </footer>
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", () => {
+
+                const hamburger = document.querySelector(".hamburger");
+
+                const mobileMenu = document.querySelector(".mobile-menu");
+
+                hamburger.addEventListener("click", () => {
+
+                    mobileMenu.classList.toggle("open");
+
+                    hamburger.setAttribute(
+                        "aria-expanded",
+                        mobileMenu.classList.contains("open")
+                    );
+
+                });
+
+                window.addEventListener("resize", () => {
+
+                    if (window.innerWidth >= 1024) {
+
+                        mobileMenu.classList.remove("open");
+
+                        hamburger.setAttribute("aria-expanded", "false");
+
+                    }
+
+                });
+
+                const headers = document.querySelectorAll(".acc-header");
+
+                headers.forEach(header => {
+
+                    header.addEventListener("click", () => {
+
+                        document.querySelectorAll(".acc-item").forEach(item => {
+
+                            item.classList.remove("open");
+
+                            item.querySelector(".acc-body").style.maxHeight = "0px";
+
+                        });
+
+                        const item = header.parentElement;
+
+                        item.classList.add("open");
+
+                        const body = item.querySelector(".acc-body");
+
+                        body.style.maxHeight = body.scrollHeight + "px";
+
+                    });
+
+                });
+
+                const first = document.querySelector(".acc-item.open .acc-body");
+
+                if (first) {
+
+                    first.style.maxHeight = first.scrollHeight + "px";
+
+                }
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
