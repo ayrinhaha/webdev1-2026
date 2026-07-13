@@ -262,7 +262,7 @@ body {
     align-content: flex-start;
     width: 360px;
     height: 200px;
-    gap: 2px;
+    gap: 10px;
 }
 
 .s2-ten .card {
