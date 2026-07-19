@@ -71,16 +71,14 @@ body {
     width: 130px;
 }
 
-
-
 /* 1 */
-.s1-one {
+.container {
     display: flex;
     justify-content: space-between;
 }
 
 /* 2 */
-.s1-two {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,14 +87,14 @@ body {
 }
 
 /* 3 */
-.s1-three {
+.container {
     display: flex;
     align-items: flex-end;
     gap: 8px;
 }
 
 /* 4 */
-.s1-four {
+.container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -104,7 +102,7 @@ body {
 }
 
 /* 5 */
-.s1-five {
+.container {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -112,28 +110,26 @@ body {
     height: 220px;
 }
 
-
-.s1-four .card,
-.s1-five .card {
+.container .card {
     width: 155px;
 }
 
 /* 6 */
-.s1-six {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* 7 */
-.s1-seven {
+.container {
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
 }
 
 /* 8 */
-.s1-eight {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,13 +138,13 @@ body {
 }
 
 /* 9 */
-.s1-nine {
+.container {
     display: flex;
     gap: 30px;
 }
 
 /* 10 */
-.s1-ten {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -156,115 +152,4 @@ body {
     width: 360px;
     height: 200px;
     gap: 2px;
-}
-
-
-/* 11 */
-.s2-one {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
-
-/* 12 */
-.s2-two {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.s2-two div {
-    width: 150px;
-}
-
-/* 13 */
-.s2-three {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    justify-content: flex-start;
-}
-
-/* 14 */
-.s2-four {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 360px;
-
-}
-
-.s2-four .card {
-    width: 110px;
-}
-
-/* 15 */
-.s2-five {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    width: 360px;
-    height: 220px;
-}
-
-.s2-five .card {
-    width: 155px;
-}
-
-/* 16 */
-.s2-six {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.s2-six .logo {
-    height: 60px;
-}
-
-.s2-six .link {
-    height: 30px;
-}
-
-.s2-six .btn {
-    height: 62px;
-}
-
-/* 17 */
-.s2-seven {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 8px;
-}
-
-/* 18 */
-.s2-eight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-/* 19 */
-.s2-nine {
-    display: flex;
-    gap: 30px;
-}
-
-/* 20 */
-.s2-ten {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: flex-start;
-    width: 360px;
-    height: 200px;
-    gap: 10px;
-}
-
-.s2-ten .card {
-    width: 90px;
 }
